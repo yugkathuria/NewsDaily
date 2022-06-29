@@ -1,0 +1,128 @@
+
+
+.blu{
+  background-color: rgb(231, 216, 0);
+  color:black;
+  font-size:xx-small
+}
+.registerbg {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:rgb(231, 216, 0);;
+  background-size:100% 100%;
+  height: 100%;
+  /* 100% 700% to remove  pencils */
+}
+
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+    color:#fff
+}
+.centerz {
+ 
+  text-align: center;
+  color:#fff
+}
+.digi-text {
+  text-align: left;
+  font-size: 1rem;
+  color: black;
+  
+}
+.credits{
+  text-align: center;
+  position: relative;
+  bottom: 10pt;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 0pt;
+  color: black;
+  background-color: #fff;
+  margin-bottom: 0%;
+  
+}
+
+.topo{
+  margin-top: 1%;
+  text-align: right;
+  margin-left: 6%;
+ 
+}
+.topleft{
+  text-align: left;
+  font-size: 28px;
+  margin-top: 0.5%;
+  margin-bottom: 0%;
+  margin-left: 1%;
+}
+
+.gr{
+  background-color: #e7e1e1a1;
+}
+
+
+.lf{
+text-align:left;
+}
+.dis{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mgin{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 25px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: 0px;
+  margin-left: 0%;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+ .middle {
+  margin-bottom: 0px;
+ 
+  border-radius: 0;
+ 
+}
+ .bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+ .bl{
+      color:rgb(44, 43, 43); 
+     
+     font-weight: 1000;
+ }
+ .btn{
+     background-color:rgb(44, 43, 43); 
+     color:white;
+ }
+ .btn:hover{
+    background-color:rgb(22, 43, 3); 
+    color:white;
+}
+.ig{
+    background-color: transparent;
+    
+}

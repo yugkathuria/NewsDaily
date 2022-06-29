@@ -1,0 +1,60 @@
+<%- include('partials/header') %>
+<header class="blu">
+  <div class="row">
+  <div class="topleft col-sm-7">
+    
+  
+  <p>&nbsp;<i class="fa fa-newspaper"></i>&nbsp;NewsDaily</p>
+   </div>
+  <div class="topo col-sm-4">
+  
+  <a class="btn btn-light btn-m" href="/register" target="_blank" role="button">Register</a>
+</div>
+</div>
+</header>
+<body class="gr">
+<div class=" text-center">
+  <div class="gr cards">
+   
+    <h3><b>Feed!</b></h3>
+  
+    
+
+    <%  for(var i=0;i<Math.min(15,newsData.articles.length);i++){ %>
+      
+      <div class="card dis mgin">
+        <div class="card-body lf">
+          <div class="row">
+          <div class="col-sm-9">
+            <a href="<%=newsData.articles[i].url%>"target="_blank"><h5><b><%=newsData.articles[i].title%></b></h5></a>
+               
+          
+      <p>
+        
+        <%=newsData.articles[i].description%>
+      
+      </p>
+    </div>
+    <div class="col-sm-3 text-center">
+      <img src="<%=newsData.articles[i].urlToImage%>" alt="NewsApp Image" width="120" height="120">
+    </div> 
+      </div>
+      <hr>
+     
+      <p><%=helper.printD(newsData.articles[i].publishedAt)%></p>
+    </div>
+      </div>
+  
+      <% } %>
+ 
+    
+   
+   
+    
+    
+  </div>
+</div>
+<br>
+<p class="credits">Developed by Yug Kathuria</p>
+</body>
+<%- include('partials/footer') %>
